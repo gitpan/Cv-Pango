@@ -27,7 +27,9 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : 0,
+            "ExtUtils::ParseXS" : "2.22",
+            "ExtUtils::PkgConfig" : "1.12"
          }
       },
       "runtime" : {
@@ -40,5 +42,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.27"
+   "version" : "0.28"
 }
